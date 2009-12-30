@@ -1,4 +1,8 @@
-body {
+iframe, #conash3D0{
+	display: none;
+}
+
+#main {
 	margin: 0 auto;
 	width: 400px;
 	font-family: Helvetica, Arial, Geneva, sans-serif;
