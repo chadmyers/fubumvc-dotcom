@@ -1,0 +1,13 @@
+# Short URL Stuff
+
+$wgScriptPath       = "/fubuwiki";
+$wgArticlePath = "/$1";	# Virtual path
+$wgUsePathInfo = true;
+
+
+# James Gregory's FluentNHibernate custom settings
+$wgHideInterlanguageLinks = true; # removes language links
+$wgDefaultUserOptions['editsection'] = 0; # hides edit links from anonymous users
+$wgEnableUploads = true; # obvious
+$wgGroupPermissions['*']['edit'] = false; # allow only authorised users to edit pages
+$wgShowIPinHeader = false; # obvious
